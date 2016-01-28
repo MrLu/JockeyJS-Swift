@@ -19,8 +19,8 @@
 		8A4A48691C4953AE002EC041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A4A48681C4953AE002EC041 /* Assets.xcassets */; };
 		8A4A486C1C4953AE002EC041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4A486A1C4953AE002EC041 /* LaunchScreen.storyboard */; };
 		8A4A48771C4953AE002EC041 /* JockeyJS_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4A48761C4953AE002EC041 /* JockeyJS_SwiftTests.swift */; };
-		8A4A48831C495542002EC041 /* Jockey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4A48821C495542002EC041 /* Jockey.swift */; };
-		8A4A48841C495542002EC041 /* Jockey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4A48821C495542002EC041 /* Jockey.swift */; };
+		8A55E4DA1C58D9F100BAF408 /* Jockey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A55E4D91C58D9F100BAF408 /* Jockey.swift */; };
+		8A55E4DB1C58D9F100BAF408 /* Jockey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A55E4D91C58D9F100BAF408 /* Jockey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,7 @@
 		8A4A48721C4953AE002EC041 /* JockeyJS-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JockeyJS-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4A48761C4953AE002EC041 /* JockeyJS_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JockeyJS_SwiftTests.swift; sourceTree = "<group>"; };
 		8A4A48781C4953AE002EC041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A4A48821C495542002EC041 /* Jockey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jockey.swift; sourceTree = "<group>"; };
+		8A55E4D91C58D9F100BAF408 /* Jockey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jockey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +107,8 @@
 		8A4A48601C4953AE002EC041 /* JockeyJS-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				8A55E4D81C58D9F100BAF408 /* includes */,
 				8A2BEF891C4FFAA700F75D72 /* Supporting Files */,
-				8A4A48811C49551A002EC041 /* includes */,
 				8A4A48611C4953AE002EC041 /* AppDelegate.swift */,
 				8A4A48631C4953AE002EC041 /* ViewController.swift */,
 				8A4A48651C4953AE002EC041 /* Main.storyboard */,
@@ -128,10 +128,10 @@
 			path = "JockeyJS-SwiftTests";
 			sourceTree = "<group>";
 		};
-		8A4A48811C49551A002EC041 /* includes */ = {
+		8A55E4D81C58D9F100BAF408 /* includes */ = {
 			isa = PBXGroup;
 			children = (
-				8A4A48821C495542002EC041 /* Jockey.swift */,
+				8A55E4D91C58D9F100BAF408 /* Jockey.swift */,
 			);
 			path = includes;
 			sourceTree = "<group>";
@@ -245,7 +245,7 @@
 			files = (
 				8A4A48641C4953AE002EC041 /* ViewController.swift in Sources */,
 				8A4A48621C4953AE002EC041 /* AppDelegate.swift in Sources */,
-				8A4A48831C495542002EC041 /* Jockey.swift in Sources */,
+				8A55E4DA1C58D9F100BAF408 /* Jockey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A4A48841C495542002EC041 /* Jockey.swift in Sources */,
+				8A55E4DB1C58D9F100BAF408 /* Jockey.swift in Sources */,
 				8A4A48771C4953AE002EC041 /* JockeyJS_SwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
